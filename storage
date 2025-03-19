@@ -16,7 +16,7 @@ contract EmployeeStorage {
         idNumber = _idNumber; // Initialize idNumber
     }
 
-    // View function to retrieve the number of shares owned by the employee
+    // View function to retrieve the number of shares owned by the employee x
     function viewShares() public view returns (uint16) {
         return shares;
     }
